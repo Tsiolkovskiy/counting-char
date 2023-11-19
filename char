@@ -1,0 +1,5 @@
+def count_char_x(word, char):
+  for letter in word:
+    return word.count(char)
+
+print(count_char_x("mississippi", "s"))
